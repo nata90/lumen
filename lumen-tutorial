@@ -1,0 +1,11 @@
+//membuat migrate database
+php artisan make:migration create_vouchers_table
+
+//menjalankan migrate database
+php artisan migrate
+
+//membatalkan migrate database
+php artisan migrate:rollback
+
+//aktifkan akses via port
+php -S localhost:8000 -t public
