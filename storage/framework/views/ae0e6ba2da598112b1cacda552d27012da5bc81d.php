@@ -1,0 +1,1 @@
+Selamat anda berhasil isi pulsa <?php echo e($voucher->balance); ?> dari kode <?php echo e($voucher->code); ?>
